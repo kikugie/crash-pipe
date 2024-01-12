@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "icon": "assets/crash-pipe/icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "preLaunch": [
       "dev.kikugie.crash_pipe.SoundLoader::init"
