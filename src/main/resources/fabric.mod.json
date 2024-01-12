@@ -1,25 +1,28 @@
 {
-	"schemaVersion": 1,
-	"id": "crash-pipe",
-	"version": "${version}",
-	"name": "Crash Pipe",
-	"description": "This is an example description! Tell everyone what your mod is about!",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://modrinth.com/project/crash-pipe"
-	},
-	"license": "MIT",
-	"icon": "assets/crash-pipe/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"preLaunch": ["dev.kikugie.crash_pipe.SoundLoader::init"]
-	},
-	"mixins": [
-		"crash-pipe.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.14"
-	}
+  "schemaVersion": 1,
+  "id": "crash-pipe",
+  "version": "${version}",
+  "name": "Crash Pipe",
+  "description": "What do you expect?",
+  "authors": [
+    "KikuGie"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/crash-pipe",
+    "sources": "https://github.com/kikugie/crash-pipe"
+  },
+  "license": "MIT",
+  "icon": "assets/crash-pipe/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": [
+      "dev.kikugie.crash_pipe.SoundLoader::init"
+    ]
+  },
+  "mixins": [
+    "crash-pipe.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14"
+  }
 }
