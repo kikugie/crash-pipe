@@ -1,0 +1,10 @@
+{
+	"id": "testmod",
+	"version": "1",
+	"schemaVersion": 1,
+	"entrypoints": {
+		"main": [
+			"testmod.Init"
+		]
+	}
+}
